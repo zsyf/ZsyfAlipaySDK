@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
     s.requires_arc = true
     s.resources    = 'AlipaySDK.bundle'
     s.vendored_frameworks = 'AlipaySDK.framework'
-    s.public_header_files = 'AlipaySDK.framework/Headers/**/*.h'
     s.frameworks = 'CoreTelephony', 'SystemConfiguration', 'QuartzCore', 'CoreText', 'CoreGraphics', 'UIKit', 'Foundation', 'CFNetwork', 'CoreMotion'
     s.library = 'z', 'c++'
 
